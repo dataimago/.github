@@ -1,8 +1,5 @@
 <svg width="480" height="480" viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
-    <style type="text/css">
-      @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&amp;display=swap');
-    </style>
     <style>
       .futura {
         font-family: 'Futura';
@@ -20,17 +17,11 @@
       .background {
         fill: rgb(220, 220, 220);
       }
-      .overlay-josefin {
-        font-family: 'Josefin Sans';
+      .overlay-futura {
+        font-family: 'Futura';
         font-style: italic;
         font-size: 48px;
         fill: rgb(100, 100, 100);
-        text-anchor: middle;
-      }
-      .overlay-futura {
-        font-family: 'Futura';
-        font-size: 48px;
-        fill: rgb(150, 150, 150);
         text-anchor: middle;
       }
     </style>
@@ -62,10 +53,10 @@
   <text x="249" y="380" class="futura imago-plain">i</text>
 
   <!-- Emancipation = Super-alignment -->
-  <text x="240" y="180" class="overlay-josefin" opacity="0">
+  <text x="240" y="180" class="overlay-futura" opacity="0">
     <tspan x="240" dy="0">Emancipation</tspan>
-    <tspan x="240" dy="1.2em">=</tspan>
-    <tspan x="240" dy="1.2em">Super-alignment</tspan>
+    <tspan x="240" dy="1.3em">=</tspan>
+    <tspan x="240" dy="1.1em">Super-alignment</tspan>
     <animate id="quote1"
           attributeName="opacity"
           values="0;1;1;0"
@@ -77,12 +68,12 @@
           fill="freeze" />
   </text>
 
-  <!-- Mission -->
-  <text x="240" y="175" class="overlay-josefin" opacity="0">
-    <tspan x="240" dy="0" font-size="56">Mission:</tspan>
-    <tspan x="240" dy="1.3em" font-size="36">The emancipation of</tspan>
-    <tspan x="240" dy="1.1em" font-size="36">humanity through</tspan>
-    <tspan x="240" dy="1.1em" font-size="36">AI super-alignment.</tspan>
+  <!-- Problem -->
+  <text x="240" y="175" class="overlay-futura" opacity="0">
+    <tspan x="240" dy="0" font-size="56">Problem</tspan>
+    <tspan x="240" dy="1.4em" font-size="36">Super-alignment is</tspan>
+    <tspan x="240" dy="1.1em" font-size="36">the defining challenge</tspan>
+    <tspan x="240" dy="1.1em" font-size="36">of our time.</tspan>
     <animate id="quote2"
           attributeName="opacity"
           values="0;1;1;0"
@@ -94,12 +85,12 @@
           fill="freeze" />
   </text>
 
-  <!-- Vision -->
-  <text x="240" y="175" class="overlay-josefin" opacity="0">
-    <tspan x="240" dy="0" font-size="56">Vision:</tspan>
-    <tspan x="240" dy="1.3em" font-size="36">Super-alignment</tspan>
-    <tspan x="240" dy="1.1em" font-size="36">by nurture,</tspan>
-    <tspan x="240" dy="1.1em" font-size="36">not by nature.</tspan>
+  <!-- Mission -->
+  <text x="240" y="175" class="overlay-futura" opacity="0">
+    <tspan x="240" dy="0" font-size="56">Mission</tspan>
+    <tspan x="240" dy="1.4em" font-size="36">The emancipation of</tspan>
+    <tspan x="240" dy="1.1em" font-size="36">humanity through</tspan>
+    <tspan x="240" dy="1.1em" font-size="36">ai super-alignment.</tspan>
     <animate id="quote3"
           attributeName="opacity"
           values="0;1;1;0"
@@ -112,12 +103,13 @@
   </text>
 
   <!-- Philosophy -->
-  <text x="240" y="175" class="overlay-josefin" opacity="0">
-    <tspan x="240" dy="0" font-size="56">Philosophy:</tspan>
-    <tspan x="240" dy="1.3em" font-size="36">Super-alignment is the</tspan>
-    <tspan x="240" dy="1.1em" font-size="36">embedding of AI in culture,</tspan>
-    <tspan x="240" dy="1.1em" font-size="36">not the embedding of.</tspan>
-    <tspan x="240" dy="1.1em" font-size="36">culture in AI.</tspan>
+  <text x="240" y="155" class="overlay-futura" opacity="0">
+    <tspan x="240" dy="0" font-size="56">Philosophy</tspan>
+    <tspan x="240" dy="1.4em" font-size="36">Super-alignment is</tspan>
+    <tspan x="240" dy="1.1em" font-size="36">the embedding of ai</tspan>
+    <tspan x="240" dy="1.1em" font-size="36">in culture, not the</tspan>
+    <tspan x="240" dy="1.1em" font-size="36">embedding of</tspan>
+    <tspan x="240" dy="1.1em" font-size="36">culture in ai.</tspan>
     <animate id="quote4"
           attributeName="opacity"
           values="0;1;1;0"
@@ -129,12 +121,12 @@
           fill="freeze" />
   </text>
 
-  <!-- Challenge -->
-  <text x="240" y="175" class="overlay-josefin" opacity="0">
-    <tspan x="240" dy="0" font-size="56">Challenge:</tspan>
-    <tspan x="240" dy="1.3em" font-size="36">Super-alignment is the</tspan>
-    <tspan x="240" dy="1.1em" font-size="36">defining challenge.</tspan>
-    <tspan x="240" dy="1.1em" font-size="36">of our time.</tspan>
+  <!-- Vision -->
+  <text x="240" y="175" class="overlay-futura" opacity="0">
+    <tspan x="240" dy="0" font-size="56">Vision</tspan>
+    <tspan x="240" dy="1.4em" font-size="36">Super-alignment</tspan>
+    <tspan x="240" dy="1.1em" font-size="36">by nurture,</tspan>
+    <tspan x="240" dy="1.1em" font-size="36">not by nature.</tspan>
     <animate id="quote5"
           attributeName="opacity"
           values="0;1;1;0"
@@ -145,5 +137,4 @@
           begin="quote4.end"
           fill="freeze" />
   </text>
-
 </svg>
