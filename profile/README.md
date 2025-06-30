@@ -31,8 +31,8 @@
 
 </div>
 
-[logo-url-dataimago]: https://raw.githubusercontent.com/dataimago/.github/profile/dataimago_supreme_1.svg 
+[logo-url-dataimago]: dataimago_supreme_1.svg 
 [site-url-dataimago]: https://dataimago.ai/
-[logo-url-ai]: https://raw.githubusercontent.com/dataimago/.github/profile/ai_supreme_2.svg 
+[logo-url-ai]: ai_supreme_2.svg 
 [site-url-ai]: https://dataimago.ai/
 
