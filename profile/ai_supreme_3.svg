@@ -12,10 +12,10 @@
         filter: url(#inset-shadow);
       }
       .data-plain, .imago-plain {
-        fill: rgb(30, 30, 30);
+        fill: rgb(225, 225, 225);
       }
       .background {
-        fill: rgb(36, 36, 36);
+        fill: rgb(220, 220, 220);
       }
     </style>
 
