@@ -1,6 +1,7 @@
 <div align="center">
 
 [![dataimago][logo-url-dataimago]][site-url-dataimago]
+
 [![ai][logo-url-ai]][site-url-ai]
 
 
