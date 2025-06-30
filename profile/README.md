@@ -1,13 +1,13 @@
 <div align="center">
 
 <a href="https://dataimago.ai/">
-  <img src="dataimago_supreme_1.svg" alt="dataimago" style="border-radius: 120px; border: 2px solid #e1e4e8; padding: 8px; background-color: #ffffff; box-shadow: 0 2px 8px rgba(0,0,0,0.1); margin: 10px; width: 100%">
+  <img src="dataimago_supreme_1.svg" alt="dataimago" style="width: 100%">
 </a>
 
 <br>
 
 <a href="https://dataimago.ai/">
-  <img src="ai_supreme_2.svg" alt="ai" style="border-radius: 12px; border: 2px solid #e1e4e8; padding: 8px; background-color: #ffffff; box-shadow: 0 2px 8px rgba(0,0,0,0.1); margin: 10px; width: 100%">
+  <img src="ai_supreme_2.svg" alt="ai" style="width: 100%">
 </a>
 
 </div>
