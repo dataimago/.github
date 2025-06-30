@@ -1,9 +1,6 @@
 <div align="center">
 
-# 🚀 dataimago
-
 [![dataimago][logo-url-dataimago]][site-url-dataimago]
-
 [![ai][logo-url-ai]][site-url-ai]
 
 
