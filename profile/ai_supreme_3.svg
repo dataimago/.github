@@ -15,7 +15,7 @@
         fill: rgb(255, 255, 255);
       }
       .background {
-        fill: rgb(235, 235, 235);
+        fill: rgb(220, 220, 220);
       }
     </style>
 
@@ -43,7 +43,7 @@
   </defs>
 
   <!-- Background -->
-  <rect class="background" width="100%" height="100%" rx="5" ry="5"/>
+  <rect class="background" width="100%" height="100%" rx="5" ry="5" stroke="rgb(255, 0, 0)" stroke-width="2"/>
 
   <!-- Text -->
   <text x="110" y="380" class="futura data">a</text>
