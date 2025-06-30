@@ -7,7 +7,7 @@
 <br>
 
 <a href="https://dataimago.ai/">
-  <img src="ai_supreme_2.svg" alt="ai" style="width: 86%">
+  <img src="ai_supreme_3.svg" alt="ai" style="width: 86%">
 </a>
 
 </div>
