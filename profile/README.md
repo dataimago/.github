@@ -11,23 +11,3 @@
 </a>
 
 </div>
-
----
-
-## 🌟 Our Mission
-
-**The emancipation of humanity through AI superalignment.**
-
----
-
-## 🔮 Our Vision
-
-**Superalignment not by nurture, but by nature.**
-
----
-
-## 💭 Our Philosophy
-
-**Superalignment is not embedding culture in AI; it is embedding AI in culture for emancipatory ends.**
-
----
