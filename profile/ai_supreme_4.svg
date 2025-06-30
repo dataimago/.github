@@ -1,0 +1,91 @@
+<svg width="480" height="480" viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <style>
+      .futura {
+        font-family: 'Futura';
+        font-style: italic;
+        font-size: 400px;
+        font-weight: bold;
+      }
+      .data, .imago {
+        fill: black;
+        filter: url(#inset-shadow);
+      }
+      .data-plain, .imago-plain {
+        fill: rgb(255, 255, 255);
+      }
+      .background {
+        fill: rgb(220, 220, 220);
+      }
+      .overlay {
+        font-family: 'Futura';
+        font-size: 20px;
+        fill: rgba(0, 0, 0, 0.6);
+        text-anchor: middle;
+      }
+    </style>
+
+    <!-- Inset shadow filter -->
+    <filter id="inset-shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2" result="blur" />
+      <feOffset in="blur" dx="-1" dy="-1" result="offset1" />
+      <feOffset in="blur" dx="1" dy="1" result="offset2" />
+      <feFlood flood-color="rgb(230, 230, 230)" flood-opacity="0.5" result="flood1" />
+      <feComposite in="flood1" in2="offset1" operator="in" result="shadow1" />
+      <feFlood flood-color="rgb(180, 180, 180)" flood-opacity="0.2" result="flood2" />
+      <feComposite in="flood2" in2="offset2" operator="in" result="shadow2" />
+      <feMerge>
+        <feMergeNode in="shadow1" />
+        <feMergeNode in="shadow2" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect class="background" width="100%" height="100%" rx="5" ry="5" stroke="rgb(180, 180, 180)" stroke-width="2"/>
+
+  <!-- Base Letters -->
+  <text x="110" y="380" class="futura data">a</text>
+  <text x="249" y="380" class="futura imago">i</text>
+  <text x="110" y="380" class="futura data-plain">a</text>
+  <text x="249" y="380" class="futura imago-plain">i</text>
+
+  <!-- Overlayed Messages -->
+  <text x="240" y="180" text-anchor="middle" font-family="Futura" font-size="48" fill="black" opacity="0">
+  <tspan x="240" dy="0">Emancipation</tspan>
+  <tspan x="240" dy="1.2em">=</tspan>
+  <tspan x="240" dy="1.2em">Super-alignment</tspan>
+  <animate attributeName="opacity"
+           values="0;1;0"
+           keyTimes="0;0.25;1"
+           keySplines="0.42 0 1 1; 0 0 0.58 1"
+           calcMode="spline"
+           dur="4s"
+           begin="0s"
+           repeatCount="indefinite" />
+  </text>
+
+<!--
+  <text x="240" y="240" class="overlay">
+    Mission: The emancipation of humanity through AI superalignment
+    <animate attributeName="opacity" values="0;1;0" dur="10s" begin="2s" end="4s" repeatCount="indefinite"></animate>
+  </text>
+
+  <text x="240" y="240" class="overlay">
+    Vision: Superalignment by nurture, not by nature
+    <animate attributeName="opacity" values="0;1;0" dur="10s" begin="4s" end="6s" repeatCount="indefinite"></animate>
+  </text>
+
+  <text x="240" y="240" class="overlay">
+    Philosophy: Superalignment is the embedding of AI in culture for emancipatory ends, not the embedding of culture in AI.
+    <animate attributeName="opacity" values="0;1;0" dur="10s" begin="6s" end="8s" repeatCount="indefinite"></animate>
+  </text>
+
+  <text x="240" y="240" class="overlay">
+    Challenge: Superalignment is the defining challenge of our time
+    <animate attributeName="opacity" values="0;1;0" dur="10s" begin="8s" end="10s" repeatCount="indefinite"></animate>
+  </text>
+-->
+
+</svg>
