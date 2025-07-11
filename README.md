@@ -1,5 +1,5 @@
 <div align="center">
-	<a href="https://dataimago.github.io"><img src="profile/dataimago_supreme_4.svg" alt="ai" style="width: 95%"></a>
+	<a href="https://dataimago.ai"><img src="dataimago_supreme_4.svg" alt="dataimago home" style="width: 95%"></a>
 </div>
 
 #
