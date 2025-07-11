@@ -2,4 +2,5 @@
 
 #
 
-> _dataimago GitHub organization-wide files/profiles_
+> [!warning] _dataimago_
+> Organization files, profiles, and other content.
