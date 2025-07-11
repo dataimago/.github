@@ -2,5 +2,5 @@
 
 #
 
-> [!warning] _dataimago_
-> Organization files, profiles, and other content.
+>  [!important] _dataimago_
+>  Organization files, profiles, and other content.
