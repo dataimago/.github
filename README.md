@@ -2,5 +2,5 @@
 
 #
 
-> [!NOTE] _dataimago_
-> Organization files, profiles, and other content.
+> [!NOTE]
+> _dataimago_ files, profiles, and other content.
