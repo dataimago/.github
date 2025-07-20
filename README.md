@@ -5,4 +5,4 @@
 #
 
 > [!NOTE]
-> _dataimago_ files, profiles, and other content.
+> _dataimago_ files, profiles, content and other assets.
